@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+.main-head-text h2{
+    font-size: 100px;
+    font-weight: 500;
+}
+.start-project-one-con{
+    margin: 150px 0 0 0;
+}
+.start-project-one-con strong{
+    font-size: 70px;
+    font-weight: 400;
+}
+.start-project-one-con p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.start-project-tow span {
+    padding: 25% 20%;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+}
+.start-project-tow{
+    position: relative;
+}
+.start-tow-img {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+#myBtn {
+    position: absolute;
+    bottom: 4%;
+    right: 8%;
+    z-index: 99;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #myBtn i{
+      font-size: 30px;
+  }
+  .section-title p{
+      width: 100px;
+      border: 3px solid #1F1F1F;
+      margin-bottom: 0;
+  }
+  .our-service{
+    margin-top: 100px !important;
+}
+.design-collabse{
+    margin-top: 100px;
+}
+.fa-lightbulb{
+    padding: 15px 19px;
+}
+.steps-item-icon-line{
+    height: 102px;
+    width: 0;
+    margin: 20px 0 20px 28px;
+    border: 1px solid #9B9B9B;
+}
+.say-item-icon{
+    width: 50px;
+    text-align: center;
+    height: 152px;
+    font-size: 150px;
+    font-weight: 500;
+}
+.say-about-item{
+    padding: 0 30px; 
+    background-color: #1F1F1F;
+    color: #FFFFFF
+}
+.say-person P {
+    color: #929292;
+}
+.subscribe-sec{
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.subscribe {
+    padding: 5px;
+    background-color: white;
+    margin-bottom: -80px;
+    z-index: 99;
+}
+
+.links-icon i{
+    font-size: 24px;
+    margin: 20px 10px ;
+    background-color: #313131;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.links-icon:first-child {
+    margin-left: 0px;
+}
+.footer-item p {
+    color: #D1D1D1;
+}
+.footer-content{
+    color: white;
+}
+@media (max-width: 1400px){
+    .subscribe-sec{
+        margin-top: 15%;
+    }
+}
+@media (max-width: 1200px){
+    .subscribe-sec{
+        margin-top: 35%;
+    }
+    .start-project-one-con strong{
+        font-size: 55px;
+    }
+}
+@media (min-width: 992px){
+    .nav-sec, .main-sec, .our-service, .design-dream-sec, .design-steps-sec, .say-about-sec{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width: 950px){
+    .subscribe-sec{
+        margin-top: 45%;
+    }
+    .start-project-one-con strong{
+        font-size: 55px;
+    }
+}
+.subs-text{
+    text-align: center;
+}
+@media (min-width: 768px){
+   .main-head{
+       display: grid;
+       grid-template-columns: 50% 30%;
+       justify-content: space-between;
+   }
+   .our-service-content{
+       display: grid;
+       grid-template-columns: 30% 30% 30%;
+       justify-content: space-between;
+   }
+   .design-btn{
+    margin-top: 30% !important;
+   }
+   .say-about{
+       position: relative;
+   }
+   .say-about-ele{
+       position: absolute;
+       top: 22%;
+       left: 15%;
+   }
+   .say-about-item{
+       width: 32%;
+   }
+.subs-text{
+    padding: 5px 60px;
+}
+.footer-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 15% 15% 25%;
+    justify-content: space-around;
+    padding: 100px 30px;
+}
+}
+@media (max-width: 800px){
+    .subscribe-sec{
+        margin-top: 15%;
+    }
+    .footer-brand{
+        padding-top: 15%;
+    }
+}
